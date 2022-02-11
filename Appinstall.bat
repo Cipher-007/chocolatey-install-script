@@ -1,0 +1,3 @@
+@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
+
+@powershell -NoProfile -ExecutionPolicy Bypass -Command "choco install -y 7zip jpegview vcredist-all directx wget googlechrome oldcalc vscode telegram hwinfo notion brave mingw git obs-studio blender discord barrier docker-desktop eartrumpet mpc-hc sharex translucenttb winaero-tweaker  epicgameslauncher gcloudsdk jellyfin eclipse edgedeflector notepadplusplus qbittorrent python3 vlc nodejs sumatrapdf yarn  amd-ryzen-chipset autohotkey powertoys spotify"
